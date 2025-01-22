@@ -1,0 +1,80 @@
+.side-bar {
+  position: sticky;
+  background-color: #fff;
+  width: 270px;
+  height: 100vh;
+  left: 0;
+  z-index: 10;
+  text-align: left;
+  overflow-x: hidden;
+  border-right: 1px solid rgb(213, 213, 213);
+}
+
+ul {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  width: calc(100% - 20px);
+}
+
+.list-switch {
+  margin: 15px 0;
+}
+
+.list-switch button {
+  width: 100%;
+  margin: 5px;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.list-switch button:hover {
+  background-color: rgba(194, 194, 194, 0.3);
+  border-radius: 20px;
+}
+
+.list-switch button.active-button {
+  background-color: #bfd1e6;
+  border-radius: 20px;
+}
+
+.list-switch button.active-button:hover{
+  background-color: #bbc8d7;
+  border-radius: 20px;
+}
+
+.list-name-index {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.list-showflg-btn {
+  height: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list-showflg-btn:hover{
+  background-color: rgba(194, 194, 194, 0.3);
+  border-radius: 20px;
+}
+
+.list-showflg-btn label{
+  cursor: pointer;
+}
+
+.sidebar-newlist {
+  height: 25px;
+  padding: 5px;
+}
+
+.sidebar-newlist:hover {
+  background-color: rgba(194, 194, 194, 0.3);
+  border-radius: 20px;
+}

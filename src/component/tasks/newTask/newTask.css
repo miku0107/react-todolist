@@ -1,0 +1,54 @@
+/* タスク追加フォーム */
+
+.new-task-form {
+  position: relative;
+  border: 1px;
+  width: 100%;
+  text-align: center;
+  }
+
+.form {
+  margin: 10px 0;
+}
+
+.form-title {
+  display: inline-block;
+  width: 35%;
+  text-align: right;
+  vertical-align: top;
+  font-size: 15px;
+}
+
+.form-area {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.submit-btn {
+  display: block;
+  /* width: 100%; */
+  position: absolute;
+  right: 42px;
+}
+
+.submit-button {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.new-btn {
+  height: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.new-btn:hover {
+  background-color: rgb(231,238,252);
+  border-radius: 40px;
+}
+
+textarea{
+  font: inherit;
+  font-size: 12px;
+}

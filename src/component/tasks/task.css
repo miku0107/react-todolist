@@ -1,0 +1,122 @@
+/* タスク詳細 */
+.tasks{
+  width: 95%;
+  /* margin: auto; */
+}
+
+.task {
+  width: 95%;
+  list-style: none;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 3%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task:hover {
+  background-color: rgb(231, 238, 252);
+}
+
+h3 {
+  margin: 2px;
+  font-weight: normal;
+}
+
+p {
+  margin: 3px 0;
+}
+
+img {
+  width: 40%;
+}
+
+.task-detail-box p {
+  font-size: 12px;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button i {
+  font-size: 1rem;
+  color: #7d7d7d;
+  margin: 0 2px;
+}
+
+.edit-btn:hover i {
+  color: rgb(72, 157, 112);
+}
+
+.delete-btn:hover i {
+  color: rgb(197, 71, 71);
+}
+
+.complete-tasks {
+  margin: 0;
+}
+
+.complete-tasks h3 {
+  text-decoration: line-through 1px;
+}
+
+.deadline span {
+  padding: 1px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 8px;
+}
+
+.done-switch-box input {
+  margin-top: 7px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.task-left-box {
+  display: flex;
+}
+
+.task-menu {
+  display: flex;
+  position: relative;
+}
+
+.task-menu-btn {
+  position: relative;
+  padding: 7px 14px;
+  margin: 0 5px;
+}
+
+.star {
+  height: 17px;
+  padding: 7px;
+}
+
+.task-menu-btn:hover {
+  background-color: rgba(194, 194, 194, 0.3);
+  border-radius: 20px;
+}
+
+.task-modal {
+  top: 30px;
+  right: 45px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 9999;
+  border-radius: 5px;
+  width: 200px;
+  position: absolute;
+}
+
+.menu-bar {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  padding-left: 10px;
+}

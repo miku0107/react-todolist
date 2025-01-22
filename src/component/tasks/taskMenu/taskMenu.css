@@ -1,0 +1,41 @@
+
+.task-menu-content {
+  text-align: left;
+}
+
+.task-control button{
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.task-control button:hover {
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+.task-control {
+  border-bottom: 1px solid rgba(220, 220, 220, 0.8);
+}
+
+.list-options {
+  padding: 0;
+}
+
+.list-item {
+  text-align: left;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+.icon-placeholder {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+}

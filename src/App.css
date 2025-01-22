@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: fit-content;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-box {
+  display: flex;
+}
+
+.no-show-list {
+  width: 75vw;
+  margin: auto;
+}
+
+.no-show-list img {
+  width: 20%;
+}
+
+.list-hide-text {
+  font-size: 12px;
+  color: rgb(105, 105, 105);
 }
